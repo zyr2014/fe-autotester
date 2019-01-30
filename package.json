@@ -1,0 +1,19 @@
+{
+    "name": "fe-autotester",
+    "version": "1.0.0",
+    "description": "前端自动化测试工具",
+    "main": "index.js",
+    "bin": {
+        "fe-autotest": "./bin/autotest"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "zhangyuran",
+    "license": "ISC",
+    "dependencies": {
+        "chrome-launcher": "^0.10.5",
+        "chrome-remote-interface": "^0.27.0",
+        "commander": "^2.19.0"
+    }
+}

@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+const program = require('commander');
+const packageConfig = require('../package.json');
+const autotest = require('../index');
+
+program
+    .version(packageConfig.version, '-v, --version')
+    .option('--url <url>', 'url to be test')
+    .parse(process.argv);
+
+if (program.url) {
+    let url = program.url;
+    autotest(url);
+}
