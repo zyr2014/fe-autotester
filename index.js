@@ -1,6 +1,6 @@
 /**
  * @file index.js
- * @author zhangyuran(zhangyuran@baidu.com)
+ * @author zhangyuran
  */
 
 const CDP = require('chrome-remote-interface');
